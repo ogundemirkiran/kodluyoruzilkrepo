@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  height: 30px;
+  width: 100%;
+  background-color: cyan;
+  text-align: center;
+  margin: 0;
+}
+
+.list-main {
+  padding: 0;
+  margin: 0;
+}
+
+.list-nav {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.list-item {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.product-list {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+}
+
+nav > h1 {
+  text-align: center;
+}
+
+.content-table {
+  text-align: center;
+  display: grid;
+  font-size: 2em;
+  border: 1px solid black;
+}
