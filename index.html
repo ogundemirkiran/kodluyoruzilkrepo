@@ -1,41 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Asian Kitchen</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Zilla+Slab&display=swap" rel="stylesheet" />
-    <!-- Boostrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadayif Dolmasi</title>
+    <style>
+        body {
+            background-color: #ffc8ae;
+        }
+
+        #headSpan {
+            color: blue;
+        }
+
+        article {
+            display: block;
+            margin-top: 30px;
+            margin-left: 30%;
+        }
+
+
+        .malzeme {
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: brown;
+        }
+
+        .ekbilgi {
+            color: red;
+        }
+
+        #afiyet {
+            text-align: right;
+            font-size: larger;
+            margin-top: 10px;
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <section class="menu">
-            <!-- title -->
-            <div class="title">
-                <h2>Asian Kitchen's Menu</h2>
-            </div>
-            <!-- filter buttons-->
-            <div class="btn-container">
-                <button class="btn btn-outline-dark btn-item">All</button>
+    <!--Header Start-->
+    <header>
+        <h1 id="headerH1">Kadayif Dolmasi...</h1>
+        <b><i>Bugün neee yiyeceğiiizzz.</i> Tabi ki <span id="headSpan">Kadayıf Dolması</span> </b>
+    </header>
+    <!--Header End-->
 
-            </div>
-            <!-- menu items -->
-            <div class="section-center row">
 
-                <!-- single-item -->
+    <!--Section Start-->
+    <section>
+        <article>
+            <b>Kaç kişilik: <span class="ekbilgi">4</span></b>
+            <b>Pişirme süresi: <span class="ekbilgi">60 Dk.</span></b>
+            <b>Hazırlama süresi: <span class="ekbilgi">15 Dk.</span></b>
+        </article>
+    </section>
 
-                <!-- end of single item -->
-            </div>
-        </section>
-    </div>
-    <script src="/js/app.js"></script>
+    <section>
+        <article>
+            <b class="malzeme">Gerekli Malzemeler</b>
+            <ol>
+                <li>250 gr taze kadayıf</li>
+                <li>1 su bardağı ceviz içi (mutfak robotunda çekilmiş)</li>
+                <li>2 büyük boy yumurta</li>
+                <li>2 çay bardağı süt</li>
+
+            </ol>
+        </article>
+    </section>
+    <section>
+        <article>
+            <b class="malzeme">Şerbeti İçin</b>
+            <ol>
+                <li>3 su bardağı toz şeker</li>
+                <li>2 su bardağı su</li>
+                <li>3-4 damla limon suyu</li>
+
+            </ol>
+        </article>
+    </section>
+    <section>
+        <article>
+            <b class="malzeme">Kızartma İçin</b>
+            <ol>
+                <li>1,5-2 su bardağı sıvıyağ</li>
+
+
+            </ol>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <b class="malzeme">Hazırlanışı</b>
+            <ol>
+                <li>Şerbet için su ve şekeri orta ateşte karıştırarak kaynatın. Şeker eridikten sonra 5 dakika daha
+                    kaynamaya bırakın. Limon suyunu ekleyin karıştırın ve 1-2 dakika daha kaynattıktan sonra ocaktan
+                    alın. Şerbeti soğumaya bırakın.</li>
+                <li>Yumurtaları bir kase içinde iyice çırpın. Üzerine sütü ilave edip karıştırın ve kenara alın.</li>
+                <li>Küçük bir sos tenceresi içinde sıvığı ısıtın.</li>
+                <li>Kadayıftan bir parça alın ve elinizle düzeltin. Uç kısmına biraz ceviz koyun ve üstte kalan kısmı
+                    cevizlerin üzerine kapatın. Başparmağınızla sıkıca bastırıp sarın.</li>
+                <li>Dolmayı yumurtalı süte bulayın, fazla yumurtasını akılmak için çok hafifçe sıkın.</li>
+                <li>Kızgın yağda dolmaları çevirerek kızartın.</li>
+                <li>Kızaran dolmaları soğuk şerbete alın. 4-5 dakika şerbetini çektikten sonra servis tabağına alın.
+                </li>
+                <li>10-15 dakika dinlendirin, fıstık ya da ceviz serperek servis yapın.</li>
+            </ol>
+
+            <p id="afiyet"><b>Afiyet Olsun.</b></p>
+        </article>
+    </section>
+
+    <!--Section End-->
 </body>
 
 </html>
